@@ -1,5 +1,0 @@
-RewriteEngine On 
-RewriteCond %{SERVER_PORT} 80 
-RewriteRule ^(.*)$ https://www.androgenlab.com/$1 [R,L]
-
-ServerSignature Off
